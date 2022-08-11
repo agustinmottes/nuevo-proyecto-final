@@ -1,0 +1,51 @@
+@keyframes coder{
+    0%{
+        opacity: 1;
+    }
+    50%{
+        opacity: 0;
+    }
+    100%{
+        opacity: 1;
+    }
+  }
+
+ .flex{
+    display: flex; 
+ }
+
+ 
+
+
+
+
+
+
+.car{
+    border: 5cm;
+    box-shadow: 0 4px 6px -1px rgba(0, 0,0,0.3) 0 2px 4px -1px rgba(0, 0,0,0.7);
+    margin-top: auto;
+    }
+
+
+
+ .texto-tarjeta{
+    color: black;
+    font-size: 25px;
+    font-weight: lighter;
+    font-style: italic;
+    text-decoration: underline;
+    text-align: center;
+    text-indent: 15px;
+    align-items: center;
+    order: initial;
+ }
+.texto{
+    transform: translate(20px 100px);
+    color: black;
+    text-transform: capitalize;
+    font-size: medium;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: lowercase;
+    text-align: center;
+}

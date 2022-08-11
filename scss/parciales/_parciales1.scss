@@ -1,0 +1,52 @@
+*{
+    margin: 0cm;
+    padding: 0cm;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    box-sizing: border-box;
+   
+    
+} 
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 0cm;
+
+
+
+}
+
+.div{
+    display: grid;
+    grid-template-columns:  1fr 1fr 1fr;
+    justify-items: center;
+    align-items: center;
+  
+}
+.grid__img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+ .tarjeta{
+    height: 600px;
+    min-height: auto;
+    width: 400px;
+    stroke-width: 12px;
+    background-position: center ;
+    margin: 20px;
+    margin-bottom: auto;
+    padding: 50px;
+    padding-right: 0ch;
+    color: black;
+    background-color: darkgrey;
+    border-radius: 30px ;
+    overflow: hidden;
+
+    }
+
+    .flexboox{
+        display: grid;
+        animation-name: coder;
+        animation-duration: 4s;
+    }

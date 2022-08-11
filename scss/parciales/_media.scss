@@ -1,0 +1,26 @@
+@media screen and ( max-width: 900px ) {
+
+
+    .body{
+        border: 20px;
+        margin: 20px;
+        padding: 20px;
+        background-position: 20px;
+        background-color: beige;
+     }
+
+
+     .div{
+        display: none;
+     }
+    .navbar navbar-expand-lg navbar-light bg-light style {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 0.5rem;
+        padding-bottom: 0.5rem;
+    }
+}
+   
