@@ -37,7 +37,7 @@
    }
 
 .body{
-background-color: beige;
+background-color:$colorPricipal ;
 }
 .mapa{
    border: 1cm;
@@ -45,5 +45,25 @@ background-color: beige;
    padding: 3px;
 }
 .apellido{
-   margin: 3px;
-}
+   margin: 3px;}
+
+
+ .loco__1{
+   display: flex;
+   flex-wrap: wrap;
+   color: white;
+   margin: 20px;
+   padding: 10px;
+   }
+
+   
+$degradado: (
+   d1: linear-gradient(90deg, rgba(157,163,191,0.40379901960784315) 0%, rgba(8,9,9,0.6334908963585435) 83%)
+);
+
+
+@for $l from 1 through 2  {
+    .loco--d#{$l} {
+      background-image: map-get($degradado, d+$l );
+    }
+   }
