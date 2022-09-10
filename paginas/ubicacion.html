@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0; maximum-scale=1.0,minimum-scale=1.0">
     <meta name="keywords" content=" Bamboo,sushi,locales,argentina,ubicacion">
     <meta name="description" content="BambooSushi  Reinventando el Sushi. Restó ">
     <link rel="shortcut icon" href="../imagen/logo inicial.png" type="image/x-icon">
@@ -52,12 +52,12 @@
             <section>
             <h4> Sucursal Principal</h4>
             <p>Av. Champagnat s/n, M5500 Mendoza </p>
-            <iframe class="mapa card" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1675.491850599798!2d-68.88200516711191!3d-32.87215065617487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1659643196811!5m2!1ses-419!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            <iframe class="mapa-card-mapa1  " src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1675.491850599798!2d-68.88200516711191!3d-32.87215065617487!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x967e093ec45179bf%3A0x205a78f6d20efa3a!2sMendoza%2C%20Capital%2C%20Mendoza!5e0!3m2!1ses-419!2sar!4v1659643196811!5m2!1ses-419!2sar" width="500" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
         </ul>
            
-        <form action="">
+       <!--  <form action="">
             <div class="d-flex ">
-                       <div class="mb-3  flex-column apellido  ">
+                       <div class="mb-3  flex-column  ">
                            <label for="nombre">Nombre</label>
                            <input type="nombre" id="nombre">
                            <label for="apellido">Apellido</label>
@@ -66,9 +66,35 @@
                            <input type="cantidad de personas " id="cantidad de personas">
                            <Label for="email"> Correo electronico</Label>
                            <input type="email" id="email">
+
+                         
                            <button type="submit" class=" btn btn-primary">
                                Enviar
                            </button>
+                           </div>
+                          </form> -->
+
+                          <form class="row justify-content-center">
+                           
+                              <div class="col-md-2 mb-3">
+                                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+                              </div>
+                              <div class="col-md-2 mb-3">
+                                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+                              </div>
+
+                              <div class="col-md-2 mb-3">
+                                <input type="text" class="form-control" placeholder="cantidad de invitados " aria-label="Last name">
+                              </div>
+
+                              <div class="col-md-3 mb-3">
+                                <input type="text" class="form-control" placeholder="mail" aria-label="Last name">
+                              </div>
+                            
+                            <div class="col-2">
+                            <button type="submit" class="btn btn-primary ">Enviar </button>
+                              </div>
+                          </form>
             </section>
 
 
@@ -76,24 +102,30 @@
               <section>
                 <h4> Sucursal Palermo</h4>
                 <p>Fray Justo Sta. María de Oro </p>
-                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.910316285124!2d-58.42760895083458!3d-34.5811357600443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59c771eb933%3A0x6b3113b596d78c69!2sPalermo%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1659643718847!5m2!1ses-419!2sar" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                <iframe class="mapa-card-mapa1 "src= "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.910316285124!2d-58.42760895083458!3d-34.5811357600443!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb59c771eb933%3A0x6b3113b596d78c69!2sPalermo%2C%20CABA!5e0!3m2!1ses-419!2sar!4v1659643718847!5m2!1ses-419!2sar" width="500" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </ul>
                
-            <form action="">
-                <div class="d-flex ">
-                           <div class="mb-3  flex-column apellido  ">
-                               <label for="nombre">Nombre</label>
-                               <input type="nombre" id="nombre">
-                               <label for="apellido">Apellido</label>
-                               <input type="apellido" id="Apellido">
-                               <label for="cantidad de personas"> cantidad de personas</label>
-                               <input type="cantidad de personas " id="cantidad de personas">
-                               <Label for="email"> Correo electronico</Label>
-                               <input type="email" id="email">
-                               <button type="submit" class=" btn btn-primary">
-                                   Enviar
-                               </button>
-                </section>
+            <form class="row justify-content-center">
+                           
+              <div class="col-md-2 mb-3">
+                <input type="text" class="form-control" placeholder="Nombre" aria-label="First name">
+              </div>
+              <div class="col-md-2 mb-3">
+                <input type="text" class="form-control" placeholder="Apellido" aria-label="Last name">
+              </div>
+
+              <div class="col-md-2 mb-3">
+                <input type="text" class="form-control" placeholder="cantidad de invitados" aria-label="Last name">
+              </div>
+
+              <div class="col-md-3 mb-3">
+                <input type="text" class="form-control" placeholder="mail" aria-label="Last name">
+              </div>
+            
+            <div class="col-2">
+            <button type="submit" class="btn btn-primary ">Enviar</button>
+              </div>
+          </form>
 
 
             </div>

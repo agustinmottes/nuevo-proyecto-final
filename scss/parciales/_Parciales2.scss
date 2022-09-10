@@ -14,7 +14,10 @@
     display: flex; 
  }
 
- 
+ .mapa1{
+   margin: auto;
+  text-align: center;
+ }
 
 
 
@@ -24,7 +27,9 @@
 .car{
     border: 5cm;
     box-shadow: 0 4px 6px -1px rgba(0, 0,0,0.3) 0 2px 4px -1px rgba(0, 0,0,0.7);
-    margin-top: auto;
+    margin: 20px;
+    padding: 20px;
+   
     }
 
 
